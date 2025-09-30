@@ -3,14 +3,14 @@
 /* Fija el logo en la esquina superior izquierda */
 .logo-container {
   position: fixed;
-  top: 10px;      /* Distancia desde el borde superior */
-  left: 10px;     /* Distancia desde el borde izquierdo */
+  top: 1px;      /* Distancia desde el borde superior */
+  left: 1px;     /* Distancia desde el borde izquierdo */
   z-index: 1000;  /* Asegura que el logo se quede por encima de otros elementos */
   background-color: transparent; /* Asegúrate de que el fondo del contenedor sea transparente */
 }
 
 .logo {
-  width: 300px;    /* Ajusta el tamaño del logo según lo necesites */
+  width: 350px;    /* Ajusta el tamaño del logo según lo necesites */
   height: auto;   /* Mantiene la relación de aspecto */
 }
 
@@ -97,7 +97,7 @@ header h1 {
 .menu-superior ul {
   list-style: none;
   display: flex;
-  gap: 8rem;
+  gap: 11rem;
   margin: 0;
   padding: 0;
   align-items: center;
@@ -109,7 +109,7 @@ header h1 {
 
 .menu-superior a {
   display: inline-block;
-  background-color: #3182ce;
+  background-color: hsla(40, 52%, 39%, 0.904);
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
