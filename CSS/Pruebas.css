@@ -10,7 +10,7 @@
 }
 
 .logo {
-  width: 100px;    /* Ajusta el tamaño del logo según lo necesites */
+  width: 300px;    /* Ajusta el tamaño del logo según lo necesites */
   height: auto;   /* Mantiene la relación de aspecto */
 }
 
@@ -46,7 +46,7 @@ body {
 /* Encabezado minimalista */
 header {
   background-color: #2d3748;
-  padding: 1rem 2rem;
+  padding: 5rem 15rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
@@ -97,7 +97,7 @@ header h1 {
 .menu-superior ul {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 8rem;
   margin: 0;
   padding: 0;
   align-items: center;
@@ -108,20 +108,20 @@ header h1 {
 }
 
 .menu-superior a {
+  display: inline-block;
+  background-color: #3182ce;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
   text-decoration: none;
-  color: #ffffff;
-  font-size: 1.1rem;
   font-weight: 500;
-  padding: 0.5rem 1rem;
-  transition: all 0.3s ease;
-  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
 .menu-superior a:hover {
   background-color: #63b3ed;
   color: #fff;
 }
-
 
 /* Tarjetas minimalistas */
 .card {
