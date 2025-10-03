@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Pets - Inicio</title>
+  <link rel="stylesheet" href="../CSS/Pruebas.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="../IMG/LogoHappyPets.png" alt="Logo de HappyPets" class="logo">
+    </div>
+
+    <nav class="menu-superior">
+      <ul>
+        <li><a href="Inicio.html" class="active">Hogar</a></li> 
+        <li><a href="Producto.html">Catálogo</a></li>
+        <li><a href="Carrito.html">Carrito</a></li>
+        <li><a href="Localizacion.html">Localización</a></li>
+        <li><a href="Registro_User.html">Registro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  
+  <main>
+    <div class="card">
+      
+      <h2>Iniciar Sesión</h2>
+      <form id="loginForm">
+          
+          <label for="correo">Correo:</label>
+          <input type="text" id="correo" placeholder="Ingresa tu correo" required>
+          <span id="correoError" class="error"></span>
+          <br><br>
+  
+          
+          <label for="contraseña">Contraseña:</label>
+          <input type="password" id="contraseña" placeholder="Ingresa tu contraseña" required>
+          <span id="contraseñaError" class="error"></span>
+          <br><br>
+  
+          <button type="submit">Ingresar</button>
+      </form>
+
+      <script src="../JS/Restricciones.js"></script>
+    </main>
+  </body>
+</html>
