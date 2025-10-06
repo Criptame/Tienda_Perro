@@ -363,7 +363,7 @@ button[type="submit"]:hover {
   display: flex;                    /* activa flexbox */
   align-items: center;              /* centra verticalmente */
   justify-content: space-between;   /* texto a la izquierda, imagen a la derecha */
-  gap: 10rem;                        /* separación entre columnas */
+  gap: 10rem;                       /* separación entre columnas */
   padding: 3rem 2rem;
   max-width: 1200px;
   margin: 2rem auto;
@@ -374,17 +374,24 @@ button[type="submit"]:hover {
 }
 
 .acerca-texto {
-  flex: 1;                         
+  flex: 1;
 }
 
-.acerca-texto h2,
+.acerca-texto h2 {
+  font-size: 3rem;                /* título más grande */
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
 .acerca-texto p {
+  font-size: 1.5rem;                /* párrafo más grande */
+  line-height: 1.6;                 /* espacio entre líneas */
   color: #ffffff;
 }
 
 .acerca-imagen img {
-  width: 450px;                     
-  max-width: 100%;                  
+  width: 450px;
+  max-width: 100%;
   border-radius: 12px;
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
