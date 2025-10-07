@@ -69,18 +69,34 @@
   <main>
     <div class="card">
       
-      <h2>Iniciar Sesión</h2>
+      <h2>Iniciar Registro</h2>
       <form id="loginForm">
           
           <label for="correo">Correo:</label>
           <input type="text" id="correo" placeholder="Ingresa tu correo" required>
           <span id="correoError" class="error"></span>
           <br><br>
-  
+
+
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+          <span id="nombreError" class="error"></span>
+          <br><br>
+
+
+          <label for="Apellido">Apellido:</label>
+          <input type="text" id="apellido" placeholder="Ingresa tu apellido" required>
+          <span id="apellidoError" class="error"></span>
+          <br><br>
           
           <label for="contraseña">Contraseña:</label>
           <input type="password" id="contraseña" placeholder="Ingresa tu contraseña" required>
           <span id="contraseñaError" class="error"></span>
+          <br><br>
+
+          <label for="confirmar_contraseña">Confirmar Contraseña:</label>
+          <input type="password" id="confirmar_contraseña" placeholder="Verifica tu contraseña" required>
+          <span id="confirmar_contraseñaError" class="error"></span>
           <br><br>
   
           <button type="submit">Ingresar</button>
