@@ -12,7 +12,12 @@
 
 .logo {
   width: 330px;    /* Ajusta el tamaño del logo según lo necesites */
-  height: auto;   /* Mantiene la relación de aspecto */
+  height: auto; 
+  position: fixed;
+  top: 10px;          /* distancia desde arriba */
+  left: 20px;         /* distancia desde el borde izquierdo */
+  width: 100px;       /* tamaño del logo */
+  z-index: 1000;   /* Mantiene la relación de aspecto */
 }
 
 /* Espacio adicional para evitar que el logo se superponga al header */
