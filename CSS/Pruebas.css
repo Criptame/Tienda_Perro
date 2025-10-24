@@ -16,7 +16,7 @@
   position: fixed;
   top: 10px;          /* distancia desde arriba */
   left: 20px;         /* distancia desde el borde izquierdo */
-  width: 700px;       /* tamaño del logo */
+  width: 400px;       /* tamaño del logo */
   z-index: 1000;   /* Mantiene la relación de aspecto */
 }
 
